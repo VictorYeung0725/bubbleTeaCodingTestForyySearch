@@ -17,3 +17,4 @@ No backend<br>
 
 fixing the pic path issue<br>
 catagorizing all bubble tea base on label type <br>
+fixing the CartOverview into the page footer<br>

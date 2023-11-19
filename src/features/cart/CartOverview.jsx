@@ -6,11 +6,9 @@ function CartOverview() {
   const totalQuantity = useSelector(getTotalQuantity);
   const totalPrice = useSelector(getTotalPrice);
 
-  console.log(totalPrice);
-  console.log(totalQuantity);
   if (!totalQuantity) return null;
   return (
-    <div className=" flex items-center justify-between bg-stone-800 px-4 py-4 text-sm uppercase text-stone-200 sm:px-6 md:text-base">
+    <div className=" fixed bottom-0 flex w-full items-center justify-between bg-stone-800 px-4 py-4 text-sm uppercase text-stone-200 sm:px-6 md:text-base">
       <p className="space-x-4 font-semibold text-stone-300 sm:space-x-6">
         <span> Bubble Tea {totalQuantity}</span>
         <span>{formatCurrency(totalPrice)}</span>
