@@ -1,6 +1,6 @@
 # Bubble Tea Web Page with React + Js + TailwindCss
 
-folder stucture <br>
+folder stucture: <br>
 Data,
 Features,
 Ui,
@@ -14,3 +14,6 @@ some simple fucntionality include data manipulation on the json data <br>
 
 Using redux toolkit for global Ui statement management <br>
 No backend<br>
+
+fixing the pic path issue<br>
+catagorizing all bubble tea base on label type <br>
