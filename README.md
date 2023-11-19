@@ -1,8 +1,16 @@
-# React + Vite
+# Bubble Tea Web Page with React + Js + TailwindCss
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# a very simple web base on Json data
 
-Currently, two official plugins are available:
+# Global UI state management by redux
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Stylying by Tailwind
+
+# alert by Toaster
+
+# Folrder structure
+
+Data <br>
+Features<br>
+Ui<br>
+Utilis<br>
