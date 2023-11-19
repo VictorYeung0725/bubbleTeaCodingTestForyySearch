@@ -19,3 +19,11 @@ export function calcMinutesLeft(dateStr) {
   const d2 = new Date(dateStr).getTime();
   return Math.round((d2 - d1) / 60000);
 }
+
+export const formatLabel = (label) => {
+  const words = label.split('_');
+  const formattedWords = words.map(
+    (word) => word.charAt(0).toUpperCase() + word.slice(1),
+  );
+  return formattedWords.join(' ');
+};

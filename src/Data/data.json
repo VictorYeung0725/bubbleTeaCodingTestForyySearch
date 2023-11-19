@@ -127,7 +127,7 @@
   },
   {
     "id": 17,
-    "assetPath": "",
+    "assetPath": "mango_iced_tea.webp",
     "name": "Mango Iced Tea",
     "description": "",
     "currency": "HKD",
@@ -163,7 +163,7 @@
   },
   {
     "id": 8,
-    "assetPath": "",
+    "assetPath": "osmanthus_oolong_milk_tea.webp",
     "name": "Osmanthus Oolong Milk Tea",
     "description": "",
     "currency": "HKD",
@@ -248,7 +248,7 @@
     "name": "Yakult Strawberry Tea",
     "description": "",
     "currency": "HKD",
-    "price": -34,
+    "price": 34,
     "labels": ["yakult"]
   }
 ]
