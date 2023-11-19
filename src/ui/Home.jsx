@@ -10,7 +10,7 @@ function Home() {
       </h1>
 
       <button>
-        <Link to="menu">Order</Link>
+        <Link to="menu">Click me for Order</Link>
       </button>
     </div>
   );
