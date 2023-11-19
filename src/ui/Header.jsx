@@ -6,7 +6,7 @@ function Header() {
     <header className="flex justify-between p-5">
       <Link
         to="/"
-        className="text-5xl font-bold uppercase underline decoration-rose-200"
+        className="text-5xl font-bold uppercase underline decoration-rose-400"
       >
         Bubble Tea
       </Link>

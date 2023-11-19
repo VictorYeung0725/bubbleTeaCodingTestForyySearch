@@ -1,16 +1,16 @@
 # Bubble Tea Web Page with React + Js + TailwindCss
 
-# a very simple web base on Json data
+folder stucture <br>
+Data,
+Features,
+Ui,
+Utilis
 
-# Global UI state management by redux
+<br>
+This is a coding test base on provide Json data, extract all data and display into the webpage 
+<br>
+not a fancy website on styling <br>
+some simple fucntionality include data manipulation on the json data <br>
 
-# Stylying by Tailwind
-
-# alert by Toaster
-
-# Folrder structure
-
-Data <br>
-Features<br>
-Ui<br>
-Utilis<br>
+Using redux toolkit for global Ui statement management <br>
+No backend<br>

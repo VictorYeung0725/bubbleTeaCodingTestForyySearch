@@ -2,6 +2,7 @@ import { useState } from 'react';
 import toast from 'react-hot-toast';
 import { useDispatch } from 'react-redux';
 import { addItem } from '../cart/cartSlice';
+import Button from '../../ui/Button';
 
 function MenuItem({ bubbleTea }) {
   const [isTeaAdded, setIsTeaAdded] = useState(true);
@@ -40,12 +41,9 @@ function MenuItem({ bubbleTea }) {
           />
 
           {isTeaAdded && (
-            <button
-              className="rounded border border-blue-500 bg-transparent px-4 py-2 text-blue-700 hover:border-transparent hover:bg-blue-500 hover:text-white"
-              onClick={() => notify()}
-            >
+            <Button type="small" onClick={() => notify()}>
               Add to Cart
-            </button>
+            </Button>
           )}
         </div>
       </li>
