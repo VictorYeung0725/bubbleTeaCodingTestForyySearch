@@ -2,6 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
   cart: [],
+  selectedLabel: null,
   // cart: [
   //   {
   //     id: 24,
@@ -78,6 +79,18 @@ export const {
 } = cartSlice.actions;
 
 export default cartSlice.reducer;
+
+//divide the bubbtle tea base on label type
+export const getFilteredBubbleTeas = (state) => {
+  const selectedLabel = state.cart.selectedLabel;
+  const cartItems = state.cart.cart;
+
+  if (selectedLabel) {
+    return cartItems.filter((item) => item.labels.includes(selectedLabel));
+  }
+
+  return cartItems;
+};
 
 export const getTotalQuantity = (state) =>
   state.cart.cart.reduce((sum, item) => sum + item.quantity, 0);
